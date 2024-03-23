@@ -14,3 +14,11 @@
 3. rem : To font size of the root element
 4. vw  : To 1% of viewport width
 4. vh  : To 1% of viewport height
+
+### CSS Positioning
+
+* Static    | Not effected by tblr (top, bottom, left, right) properties/values
+* Relative  | tblr values cause element to be moved from its normal position
+* Absolute  | Positioned relative to its parent element that is positioned "relative"
+* Fixed     | Positioned relative to the viewport
+* Sticky    | Positioned based on the scroll position
