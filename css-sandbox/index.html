@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test File</title>
+  <style>
+    h1 {
+      /* remove the element from the browser but it stays in the DOM */
+      /* display: none; */
+      
+      /* it goes away but still takes up the space */
+      /* visibility: hidden; */
+      color: blue;
+
+      /* Now it will have more precedence over class and will work */
+      /* color: blue !important; */
+    }
+    
+    /* class takes precedence over actual element */
+    .hello {
+      color: red;
+
+      /* negative values with margin but does not work with padding as its inside */
+      /* margin-top: -30px; */
+    }
+  </style>
+</head>
+<body>
+  <h1 class="hello">Hello, World!</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, explicabo qui minima sunt saepe odit.</p>
+</body>
+</html>
