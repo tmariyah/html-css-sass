@@ -22,3 +22,11 @@
 * Absolute  | Positioned relative to its parent element that is positioned "relative"
 * Fixed     | Positioned relative to the viewport
 * Sticky    | Positioned based on the scroll position
+
+### How to achieve responsive design
+
+* Set the viewport / scale
+* Use fluid widths as opposed to fixed
+* Media queries - Different CSS styling for different screen sizes
+* Rem units over px
+* Mobile first method
