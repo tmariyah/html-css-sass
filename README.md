@@ -13,7 +13,13 @@
 2. em  : To font-size of parent element
 3. rem : To font size of the root element
 4. vw  : To 1% of viewport width
-4. vh  : To 1% of viewport height
+5. vh  : To 1% of viewport height
+
+#### Viewport is area within the browser
+
+* Viewport is sliced into 100 pieces, despite of browser window size
+* vh is viewport height and its max value of 100vh, divided into 100 slices
+* vw is viewport width and its maximum value is 100vw, divided into 100 slices
 
 ### CSS Positioning
 
