@@ -36,3 +36,19 @@
 * Media queries - Different CSS styling for different screen sizes
 * Rem units over px
 * Mobile first method
+
+### Flexbox
+
+* It was introduced in CSS3
+* Modern layout mode in CSS3
+* `flex` is a value for the **display** property
+* replaces floats and is much more elegant to work with
+* Aligns items both horizontal (row) and vertical (column)
+* Flex items can be re-ordered via CSS
+* `display: flex;` creates a **flex container**
+* All direct child elements are **flex items**
+* `justify-content`: align along the main axis (horizontal)
+* `align-items`: align items along the cross axis (vertical)
+* `align-content`: align when extra space in cross axis
+
+![Flexbox Geometry](flexbox_geometry.jpg "This is Flexbox geometry")
